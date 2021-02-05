@@ -31,10 +31,9 @@ int main()
     //Template
     TemplateClass<double, float> obj1{ 55.5, 3.5f };
     double results = obj1.combineValues();
-    std::cout << "\n" << results << std::endl;
+    std::cout << "\n\n\n" << results << std::endl;
     
     TemplateClass<std::string, int> obj2{ "Markus: ", 35 };
     obj2.printValues();
 
 }
-
